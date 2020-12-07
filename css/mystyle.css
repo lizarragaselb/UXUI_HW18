@@ -1,0 +1,524 @@
+
+
+body{
+    background-image: url("../Img/Topbanner.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+
+.logo{
+    float: left;
+    margin: 20px;
+    display:block;
+}
+
+.heroImg{
+    height: 1000px;
+    float: center;
+}
+
+.content {
+    position: relative;
+    top: 200px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#nombre {
+    font-size: 30pt;
+    color:#015a6b;
+    font-weight: 600;
+    height: 20px;
+    font-family: Cooper Lt BT,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#career {
+    color: #2b2b2b;
+    font-size: 18pt;
+    font-weight: 300;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#intro {
+    color: #707070;
+    font-size: 18pt;
+    font-weight: 250;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button {
+    position: relative;
+    top: 45px;
+    border-style: solid;
+    border-color: #c48919;
+    border-width: 1px;
+    background-color: white;
+    color: #c48919;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+    background-color:  #c48919;
+    color:white;
+}
+
+
+/* <!-- My UX Skilles section coded usind CSS Flex --> */
+
+.flex-container {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.research {
+    background-color:solid #f1f1f1;
+    width: 552px;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    border: lightgray;
+    border-width: 0.3px;
+    border-radius: 9px;
+    border-style: solid;
+    
+}
+
+#skill1 {
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18pt;
+    color: #015a6b;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+    height: 30px;
+    
+}
+#pskill { 
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    color: #2b2b2b;
+    font-weight: 200;
+    padding: 10px;
+    height: 30px;
+
+
+}
+
+.Analysis {
+    background-color:solid #f1f1f1;
+    width: 552px;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    border: lightgray;
+    border-width: 0.3px;
+    border-radius: 9px;
+    border-style: solid;
+    
+}
+
+#Analysis1 {
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18pt;
+    color: #015a6b;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+    height: 30px;
+    
+}
+#panalysis { 
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    color: #2b2b2b;
+    font-weight: 200;
+    padding: 10px;
+    height: 30px;
+
+
+}
+
+.Design {
+    background-color:solid #f1f1f1;
+    width: 552px;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    border: lightgray;
+    border-width: 0.3px;
+    border-radius: 9px;
+    border-style: solid;
+    
+}
+
+#Design1 {
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18pt;
+    color: #015a6b;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+    height: 30px;
+    
+}
+#pdesign { 
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14pt;
+    color: #2b2b2b;
+    font-weight: 200;
+    padding: 10px;
+    height: 30px;
+
+
+}
+
+/* END OF SKILLS  */
+
+#titulo1 {
+    position: relative;
+    top: 300px;
+    left: 50px;
+    font-size: 18pt;
+    font-weight: 300;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.container {
+    background-image: url("../Img/Topbanner.png");
+    display:block;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+    z-index: 100;
+
+
+}
+
+.navigation {
+    float: right;
+    display:block;
+    
+}
+nav ul {
+    margin: 0px;
+    padding: 35px 20px 35px 20px;
+    
+   
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+
+
+#titulo {
+    position: relative;
+    top: 300px;
+    left: 50px;
+    font-size: 18pt;
+    font-weight: 300;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* grid */
+.grid-container {
+    position: relative;
+    top: 300px;
+    display: grid;
+    grid-template-rows:auto auto auto ;
+    grid-template-columns: auto auto ;
+    grid-template-areas: "Case1 Case2 Case3";
+    grid-gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    
+}
+
+.item1 {
+    grid-area: myArea;
+}
+
+.casimg{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.caseImg{
+    width: 90%;
+    max-width: 1020px;
+    padding: 30px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+    
+}
+.caseTxt{
+    width: 30%;
+
+}
+
+#cas1 {
+    float: left;
+}
+
+
+
+.case1 {
+    background-image:url("../Img/back1.png") ;
+    width: 100%;
+    align-items: center;
+    align-content: stretch;
+}
+
+.case3 {
+    background-image:url("../Img/back1.png") ;
+    width: 100%;
+    align-items: center;
+    align-content: stretch;
+    
+}
+
+.case2 {
+    background-color:solid white ;
+    width: 100%;
+    align-items: center;
+    align-content: stretch;
+  
+}
+
+
+
+#Moving {
+    left: 30px;
+    height: 15px;
+    font-size: 24pt;
+    font-weight: 600;
+    color: #015a6b;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#Subtittle {
+    font-size: 14pt;
+    color:#707070;
+    font-weight: 300;
+    height: 30px;
+    font-family: Cooper Lt BT,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Text {
+    font-size: 16pt;
+    font-weight: 300;
+    color: #2b2b2b;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#button {
+    position: relative;
+    top: 45px;
+    border-style: solid;
+    border-color:  #015a6b;
+    border-width: 1px;
+    background-color: white;
+    color: #015a6b;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#button:hover {
+    background-color:  #3aa9ae;
+    color:white;
+    border-color: #3aa9ae;
+    border-width: 1px;
+}
+
+
+.cas2 {
+    float: right;
+    padding: 30px;
+    
+
+}
+
+
+
+#dol {
+    right: 30px;
+    height: 15px;
+    font-size: 24pt;
+    font-weight: 600;
+    color: #015a6b;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#Subtittledol {
+    font-size: 14pt;
+    color:#707070;
+    font-weight: 300;
+    margin: auto;
+    height: 30px;
+    font-family: Cooper Lt BT,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Textdol {
+    font-size: 16pt;
+    font-weight: 300;
+    color: #2b2b2b;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+
+
+#Optimeal {
+    left: 30px;
+    margin: auto;
+    height: 65px;
+    bottom: 50px;
+    font-size: 24pt;
+    font-weight: 600;
+    color: #015a6b;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#Subtittle3 {
+    font-size: 14pt;
+    color:#707070;
+    font-weight: 300;
+    margin: auto;
+    height: 30px;
+    font-family: Cooper Lt BT,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Text3 {
+    font-size: 16pt;
+    font-weight: 300;
+    color: #2b2b2b;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    top: 280px;
+    width: 100%;
+    height: 200px;
+    background-color:#015a6b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+ }
+
+ #connect {
+
+    font-size: 16pt;
+    font-weight: 300;
+    color: white;
+    font-family: Sofia Pro,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navfooter {
+    float: left;
+    display:block;
+    position: relative;
+    top: 40%;
+    
+}
+
+#super {
+    color:  #c48919;
+    font-weight: 400;
+}
+#super2 {
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    flex-container {
+        display:column;
+        width: 100%;
+    }
+
+    grid-container {
+
+        margin: 0px 5%;
+        display:grid;
+        grid-template-rows: 544px 544px 544px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "case1"
+        "case2"
+        "case3"
+        ;
+    }
+
+    grid-container {
+        grid-template-rows: 544px 544px 544px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "case1"
+        "case2"
+        "case3"
+        ;
+    }
+
+
+}
